@@ -31,6 +31,6 @@ from tensor2tensor.utils import registry
 def problem(name):
   return registry.problem(name)
 
-
+ 
 def available():
   return sorted(registry.list_problems())
